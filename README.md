@@ -10,10 +10,20 @@
 * Base i3           : `i3wm i3-gaps i3status i3lock i3lock-color`
 * Terminal          : `rxvt-unicode`
 * Applet            : `nm-applet volumeicon`
+* Solid BG          : `xsetroot`
 * App launcher      : `rofi`
+* Screenshot        : `scrot`
 * Font              : Monospace, Nerd Font Mono
-* 
 
 ***
 ## Other
 * Display Manager   : [ly](https://github.com/fairyglade/ly)
+* File manager      : `ranger pcmanfm`
+* Calendar          : `calcurse`
+* Resource Monitor  : [bashtop](https://github.com/aristocratos/bashtop)
+* Text Editor       : `nvim`
+* Browser           : `firefox`
+* Drawing software  : `grafx2`
+* Office            : `libreoffice`
+* Document viewer   : `gv`
+* Desktop theme switcher     : `lxappearance`
