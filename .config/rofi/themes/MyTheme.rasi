@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Rofi color theme
+   ========================================================================== */
+
+* {
+    /* Theme settings */
+    highlight: bold italic;
+    scrollbar: false;
+
+    /* Gruvbox dark colors */
+    magenta-dark-bg0:          #5d2340;
+    magenta-dark-bg0-soft:     #5d2340;
+    magenta-dark-bg3:          #ef6f3c;
+    magenta-dark-fg0:          #5d2340;
+    magenta-dark-fg1:          #f4d8a7;
+    magenta-dark-red-dark:     #b13739;
+    magenta-dark-red-light:    #ef6f3c;
+    magenta-dark-yellow-dark:  #ef6f3c;
+    magenta-dark-yellow-light: #ffb650;
+    magenta-dark-gray:         #5d2340;
+
+    /* Theme colors */
+    background:                  @magenta-dark-bg0;
+    background-color:            @background;
+    foreground:                  @magenta-dark-fg1;
+    border-color:                @magenta-dark-gray;
+    separatorcolor:              @border-color;
+    scrollbar-handle:            @border-color;
+
+    normal-background:           @background;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @magenta-dark-bg0-soft;
+    alternate-normal-foreground: @foreground;
+    selected-normal-background:  @magenta-dark-bg3;
+    selected-normal-foreground:  @magenta-dark-fg0;
+
+    active-background:           @magenta-dark-yellow-dark;
+    active-foreground:           @background;
+    alternate-active-background: @active-background;
+    alternate-active-foreground: @active-foreground;
+    selected-active-background:  @magenta-dark-yellow-light;
+    selected-active-foreground:  @active-foreground;
+
+    urgent-background:           @magenta-dark-red-dark;
+    urgent-foreground:           @background;
+    alternate-urgent-background: @urgent-background;
+    alternate-urgent-foreground: @urgent-foreground;
+    selected-urgent-background:  @magenta-dark-red-light;
+    selected-urgent-foreground:  @urgent-foreground;
+}
+
+@import "common.rasi"
+
