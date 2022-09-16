@@ -13,6 +13,7 @@
 * Solid BG          : `xsetroot`
 * App launcher      : `rofi`
 * Screenshot        : `scrot`
+* Network tools     : `net-tools`
 * Font              : Monospace, Nerd Font Mono
 
 ***
@@ -26,5 +27,6 @@
 * Drawing software  : `grafx2`
 * Office            : `libreoffice`
 * Document viewer   : `gv`
+* Warp              : [Cloudflare Warp](https://aur.archlinux.org/packages/cloudflare-warp-bin)
 * Desktop theme switcher     : `lxappearance`
 * GTK theme         : chicago95
