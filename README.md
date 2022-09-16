@@ -27,3 +27,4 @@
 * Office            : `libreoffice`
 * Document viewer   : `gv`
 * Desktop theme switcher     : `lxappearance`
+* GTK theme         : chicago95
