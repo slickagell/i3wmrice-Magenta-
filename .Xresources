@@ -1,0 +1,49 @@
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: 	eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: 	eval:selection_to_clipboard
+URxvt.iso14755: 		false
+URxvt.iso14755_52: 		false
+
+URxvt.font: 		xft:Monospace:pixelsize=12,xft:SF Mono,xft:Insconsolata Nerd Font Mono:antialias=true:hinting=true
+URxvt.boldfont: 	xft:Monospace:pixelsize=12,xft:SF Mono,xft:Insconsolata Nerd Font Mono:antialias=true:hinting=true
+URxvt.scrollBar: 	false
+URxvt.saveLines:	65535
+URxvt.letterSpace: 1
+
+Xft*dpi:	96
+Xft*antialias:	True
+Xft*hinting:	Full
+
+
+! Color 
+URxvt*background:	#1a1a1e
+URxvt*foreground:	#f4d8a7
+URxvt*cursorColor:	#ffb650
+! foreground underline
+URxvt*colorUL:		#ffb650
+! underline
+URxvt*underlineColor:	#b13739
+! black dark/light
+URxvt*color0:		#1a1a1e
+URxvt*color8:		#464c4d
+! red
+URxvt*color1:		#b13739
+URxvt*Color9:		#ef6f3c
+! green
+URxvt*color2:		#2daa4b
+URxvt*color10:		#6ba154
+! yellow
+URxvt*color3:		#ef6f3c
+URxvt*color11:		#ffb650
+! blue
+URxvt*color4:		#3b5389
+URxvt*color12:		#4193a8
+! magenta
+URxvt*color5:		#5d2340
+URxvt*color13:		#b13739
+! cyan
+URxvt*color6:		#4193a8
+URxvt*color14:		#73d4a9
+! white
+URxvt*color7:		#949c85
+URxvt*color15:		#f4d8a7
